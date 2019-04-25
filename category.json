@@ -1,0 +1,3336 @@
+{
+  "code": 2000,
+  "message": "success",
+  "data": [
+    {
+      "id": 1,
+      "name": "収入(夫)",
+      "type": "収入",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 2,
+          "name": "給与基本給",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 1,
+          "child": []
+        },
+        {
+          "id": 3,
+          "name": "勤務手当",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 1,
+          "child": []
+        },
+        {
+          "id": 4,
+          "name": "家族手当",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 1,
+          "child": []
+        },
+        {
+          "id": 5,
+          "name": "通勤手当",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 1,
+          "child": []
+        },
+        {
+          "id": 6,
+          "name": "住居費補助",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 1,
+          "child": []
+        },
+        {
+          "id": 7,
+          "name": "教育費補助",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 1,
+          "child": []
+        },
+        {
+          "id": 8,
+          "name": "特別手当",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 1,
+          "child": []
+        },
+        {
+          "id": 9,
+          "name": "残業手当",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 1,
+          "child": []
+        },
+        {
+          "id": 10,
+          "name": "賞与",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 1,
+          "child": []
+        },
+        {
+          "id": 11,
+          "name": "臨時収入",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 1,
+          "child": []
+        },
+        {
+          "id": 12,
+          "name": "副業収入",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 1,
+          "child": []
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "収入(妻)",
+      "type": "収入",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 14,
+          "name": "給与基本給",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 13,
+          "child": []
+        },
+        {
+          "id": 15,
+          "name": "勤務手当",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 13,
+          "child": []
+        },
+        {
+          "id": 16,
+          "name": "家族手当",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 13,
+          "child": []
+        },
+        {
+          "id": 17,
+          "name": "通勤手当",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 13,
+          "child": []
+        },
+        {
+          "id": 18,
+          "name": "住居費補助",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 13,
+          "child": []
+        },
+        {
+          "id": 19,
+          "name": "教育費補助",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 13,
+          "child": []
+        },
+        {
+          "id": 20,
+          "name": "特別手当",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 13,
+          "child": []
+        },
+        {
+          "id": 21,
+          "name": "残業手当",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 13,
+          "child": []
+        },
+        {
+          "id": 22,
+          "name": "賞与",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 13,
+          "child": []
+        },
+        {
+          "id": 23,
+          "name": "臨時収入",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 13,
+          "child": []
+        },
+        {
+          "id": 24,
+          "name": "副業収入",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 13,
+          "child": []
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "雑収入",
+      "type": "収入",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 26,
+          "name": "その他",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 25,
+          "child": []
+        },
+        {
+          "id": 27,
+          "name": "社会給付金",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 25,
+          "child": [
+            {
+              "id": 28,
+              "name": "公的年金",
+              "type": "収入",
+              "genre": "medium",
+              "parent_id": 27
+            },
+            {
+              "id": 29,
+              "name": "児童手当",
+              "type": "収入",
+              "genre": "medium",
+              "parent_id": 27
+            },
+            {
+              "id": 30,
+              "name": "傷病手当",
+              "type": "収入",
+              "genre": "medium",
+              "parent_id": 27
+            },
+            {
+              "id": 31,
+              "name": "傷害手当",
+              "type": "収入",
+              "genre": "medium",
+              "parent_id": 27
+            },
+            {
+              "id": 32,
+              "name": "失業保険",
+              "type": "収入",
+              "genre": "medium",
+              "parent_id": 27
+            },
+            {
+              "id": 33,
+              "name": "出産手当",
+              "type": "収入",
+              "genre": "medium",
+              "parent_id": 27
+            },
+            {
+              "id": 34,
+              "name": "埋葬費",
+              "type": "収入",
+              "genre": "medium",
+              "parent_id": 27
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": "財産収入",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 25,
+          "child": []
+        },
+        {
+          "id": 36,
+          "name": "受贈金",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 25,
+          "child": []
+        },
+        {
+          "id": 37,
+          "name": "下宿料等",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 25,
+          "child": []
+        },
+        {
+          "id": 38,
+          "name": "私的年金",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 25,
+          "child": []
+        },
+        {
+          "id": 39,
+          "name": "雑収入",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 25,
+          "child": []
+        },
+        {
+          "id": 40,
+          "name": "売却",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 25,
+          "child": []
+        },
+        {
+          "id": 41,
+          "name": "借入金",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 25,
+          "child": []
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "税金",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 43,
+          "name": "その他",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 42,
+          "child": []
+        },
+        {
+          "id": 44,
+          "name": "所得税",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 42,
+          "child": []
+        },
+        {
+          "id": 45,
+          "name": "住民税",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 42,
+          "child": []
+        },
+        {
+          "id": 46,
+          "name": "固定資産税",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 42,
+          "child": []
+        },
+        {
+          "id": 47,
+          "name": "自動車税",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 42,
+          "child": []
+        },
+        {
+          "id": 48,
+          "name": "贈与・相続",
+          "type": "収入",
+          "genre": "medium",
+          "parent_id": 42,
+          "child": []
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "社会保険費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 50,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 49,
+          "child": []
+        },
+        {
+          "id": 51,
+          "name": "健康保険",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 49,
+          "child": []
+        },
+        {
+          "id": 52,
+          "name": "厚生年金",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 49,
+          "child": []
+        },
+        {
+          "id": 53,
+          "name": "国民年金",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 49,
+          "child": []
+        },
+        {
+          "id": 54,
+          "name": "共済年金",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 49,
+          "child": []
+        },
+        {
+          "id": 55,
+          "name": "雇用保険",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 49,
+          "child": []
+        },
+        {
+          "id": 56,
+          "name": "子国民年金",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 49,
+          "child": []
+        },
+        {
+          "id": 57,
+          "name": "介護保険料",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 49,
+          "child": []
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "預金・保険",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 59,
+          "name": "預貯金",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 58,
+          "child": [
+            {
+              "id": 60,
+              "name": "定期",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 59
+            },
+            {
+              "id": 61,
+              "name": "定額",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 59
+            },
+            {
+              "id": 62,
+              "name": "積立",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 59
+            },
+            {
+              "id": 63,
+              "name": "財形",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 59
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "name": "保険",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 58,
+          "child": [
+            {
+              "id": 65,
+              "name": "生保",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 64
+            },
+            {
+              "id": 66,
+              "name": "学資",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 64
+            },
+            {
+              "id": 67,
+              "name": "養老",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 64
+            },
+            {
+              "id": 68,
+              "name": "簡保",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 64
+            },
+            {
+              "id": 69,
+              "name": "個人年金",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 64
+            }
+          ]
+        },
+        {
+          "id": 70,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 58,
+          "child": [
+            {
+              "id": 71,
+              "name": "有価証券",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 70
+            },
+            {
+              "id": 72,
+              "name": "債券",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 70
+            },
+            {
+              "id": 73,
+              "name": "出資金",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 70
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "副食物費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 75,
+          "name": "魚介類",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 74,
+          "child": [
+            {
+              "id": 76,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 77,
+              "name": "あじ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 78,
+              "name": "あなご",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 79,
+              "name": "いわし",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 80,
+              "name": "いか",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 81,
+              "name": "うなぎ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 82,
+              "name": "かれい",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 83,
+              "name": "かつお",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 84,
+              "name": "さけ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 85,
+              "name": "さば",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 86,
+              "name": "さわら",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 87,
+              "name": "さんま",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 88,
+              "name": "たい",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 89,
+              "name": "ぶり",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 90,
+              "name": "まぐろ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 91,
+              "name": "わかさぎ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 92,
+              "name": "えび",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 93,
+              "name": "たこ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 94,
+              "name": "かに",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 95,
+              "name": "かき",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 96,
+              "name": "あさり",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 97,
+              "name": "ほたて",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 98,
+              "name": "しじみ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 99,
+              "name": "しらす干し",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            },
+            {
+              "id": 100,
+              "name": "練製品",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 75
+            }
+          ]
+        },
+        {
+          "id": 101,
+          "name": "肉類",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 74,
+          "child": [
+            {
+              "id": 102,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 101
+            },
+            {
+              "id": 103,
+              "name": "鶏肉",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 101
+            },
+            {
+              "id": 104,
+              "name": "豚肉",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 101
+            },
+            {
+              "id": 105,
+              "name": "牛肉",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 101
+            },
+            {
+              "id": 106,
+              "name": "合挽",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 101
+            },
+            {
+              "id": 107,
+              "name": "ハム・ソーセージ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 101
+            },
+            {
+              "id": 108,
+              "name": "レバー",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 101
+            }
+          ]
+        },
+        {
+          "id": 109,
+          "name": "卵",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 74,
+          "child": [
+            {
+              "id": 110,
+              "name": "卵",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 109
+            }
+          ]
+        },
+        {
+          "id": 111,
+          "name": "牛乳類",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 74,
+          "child": [
+            {
+              "id": 112,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 111
+            },
+            {
+              "id": 113,
+              "name": "牛乳",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 111
+            },
+            {
+              "id": 114,
+              "name": "ヨーグルト",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 111
+            },
+            {
+              "id": 115,
+              "name": "チーズ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 111
+            },
+            {
+              "id": 116,
+              "name": "生クリーム",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 111
+            }
+          ]
+        },
+        {
+          "id": 117,
+          "name": "野菜・海藻",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 74,
+          "child": [
+            {
+              "id": 118,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 119,
+              "name": "漬物",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 120,
+              "name": "乾物",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 121,
+              "name": "大根",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 122,
+              "name": "人参",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 123,
+              "name": "かぶ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 124,
+              "name": "ごぼう",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 125,
+              "name": "玉葱",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 126,
+              "name": "じゃが芋",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 127,
+              "name": "れんこん",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 128,
+              "name": "筍",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 129,
+              "name": "ほうれん草",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 130,
+              "name": "春菊",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 131,
+              "name": "小松菜",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 132,
+              "name": "チンゲンサイ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 133,
+              "name": "にら",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 134,
+              "name": "白菜",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 135,
+              "name": "キャベツ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 136,
+              "name": "芽キャベツ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 137,
+              "name": "カリフラワー",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 138,
+              "name": "レタス",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 139,
+              "name": "もやし",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 140,
+              "name": "ねぎ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 141,
+              "name": "セロリ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            },
+            {
+              "id": 142,
+              "name": "茄子",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 117
+            }
+          ]
+        },
+        {
+          "id": 143,
+          "name": "豆類",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 74,
+          "child": [
+            {
+              "id": 144,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 143
+            },
+            {
+              "id": 145,
+              "name": "豆腐",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 143
+            },
+            {
+              "id": 146,
+              "name": "納豆",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 143
+            },
+            {
+              "id": 147,
+              "name": "油揚げ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 143
+            },
+            {
+              "id": 148,
+              "name": "厚揚げ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 143
+            },
+            {
+              "id": 149,
+              "name": "高野豆腐",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 143
+            },
+            {
+              "id": 150,
+              "name": "大豆",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 143
+            },
+            {
+              "id": 151,
+              "name": "おから",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 143
+            },
+            {
+              "id": 152,
+              "name": "黒豆",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 143
+            },
+            {
+              "id": 153,
+              "name": "小豆",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 143
+            }
+          ]
+        },
+        {
+          "id": 154,
+          "name": "菓子",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 74,
+          "child": [
+            {
+              "id": 155,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 154
+            },
+            {
+              "id": 156,
+              "name": "和菓子",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 154
+            },
+            {
+              "id": 157,
+              "name": "洋菓子",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 154
+            },
+            {
+              "id": 158,
+              "name": "クッキー",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 154
+            },
+            {
+              "id": 159,
+              "name": "飴",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 154
+            },
+            {
+              "id": 160,
+              "name": "煎餅",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 154
+            },
+            {
+              "id": 161,
+              "name": "チップス",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 154
+            },
+            {
+              "id": 162,
+              "name": "ゼリー類",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 154
+            },
+            {
+              "id": 163,
+              "name": "アイスクリーム",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 154
+            }
+          ]
+        },
+        {
+          "id": 164,
+          "name": "果物類",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 74,
+          "child": [
+            {
+              "id": 165,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 164
+            },
+            {
+              "id": 166,
+              "name": "リンゴ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 164
+            },
+            {
+              "id": 167,
+              "name": "みかん類",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 164
+            },
+            {
+              "id": 168,
+              "name": "いちご",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 164
+            },
+            {
+              "id": 169,
+              "name": "さくらんぼ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 164
+            },
+            {
+              "id": 170,
+              "name": "もも",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 164
+            },
+            {
+              "id": 171,
+              "name": "すいか",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 164
+            },
+            {
+              "id": 172,
+              "name": "メロン",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 164
+            },
+            {
+              "id": 173,
+              "name": "ぶどう",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 164
+            },
+            {
+              "id": 174,
+              "name": "なし",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 164
+            },
+            {
+              "id": 175,
+              "name": "くり",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 164
+            },
+            {
+              "id": 176,
+              "name": "柿",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 164
+            },
+            {
+              "id": 177,
+              "name": "バナナ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 164
+            },
+            {
+              "id": 178,
+              "name": "レモン",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 164
+            }
+          ]
+        },
+        {
+          "id": 179,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 74,
+          "child": [
+            {
+              "id": 180,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 179
+            },
+            {
+              "id": 181,
+              "name": "冷凍食品",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 179
+            },
+            {
+              "id": 182,
+              "name": "お惣菜",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 179
+            },
+            {
+              "id": 183,
+              "name": "健康食品",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 179
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "name": "副食物費B",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 185,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 184,
+          "child": []
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "name": "主食費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 187,
+          "name": "米・加工品",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 186,
+          "child": [
+            {
+              "id": 188,
+              "name": "米",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 187
+            },
+            {
+              "id": 189,
+              "name": "餅米",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 187
+            },
+            {
+              "id": 190,
+              "name": "玄米",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 187
+            },
+            {
+              "id": 191,
+              "name": "餅",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 187
+            }
+          ]
+        },
+        {
+          "id": 192,
+          "name": "パン類",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 186,
+          "child": [
+            {
+              "id": 193,
+              "name": "食パン",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 192
+            },
+            {
+              "id": 194,
+              "name": "菓子パン",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 192
+            }
+          ]
+        },
+        {
+          "id": 195,
+          "name": "麺・加工品",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 186,
+          "child": [
+            {
+              "id": 196,
+              "name": "そば",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 195
+            },
+            {
+              "id": 197,
+              "name": "そうめん",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 195
+            },
+            {
+              "id": 198,
+              "name": "うどん",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 195
+            },
+            {
+              "id": 199,
+              "name": "パスタ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 195
+            },
+            {
+              "id": 200,
+              "name": "中華麺",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 195
+            }
+          ]
+        },
+        {
+          "id": 201,
+          "name": "粉・加工品",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 186,
+          "child": [
+            {
+              "id": 202,
+              "name": "小麦粉",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 201
+            },
+            {
+              "id": 203,
+              "name": "上新粉",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 201
+            },
+            {
+              "id": 204,
+              "name": "白玉粉",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 201
+            },
+            {
+              "id": 205,
+              "name": "餃子の皮等",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 201
+            }
+          ]
+        },
+        {
+          "id": 206,
+          "name": "乳児用",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 186,
+          "child": []
+        },
+        {
+          "id": 207,
+          "name": "学校給食",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 186,
+          "child": []
+        },
+        {
+          "id": 208,
+          "name": "外食費",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 186,
+          "child": [
+            {
+              "id": 209,
+              "name": "店屋物",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 208
+            },
+            {
+              "id": 210,
+              "name": "レストラン",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 208
+            },
+            {
+              "id": 211,
+              "name": "テイクアウト",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 208
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "name": "調味料費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 213,
+          "name": "味噌醤油類",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 212,
+          "child": [
+            {
+              "id": 214,
+              "name": "塩",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 213
+            },
+            {
+              "id": 215,
+              "name": "醤油",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 213
+            },
+            {
+              "id": 216,
+              "name": "酢",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 213
+            },
+            {
+              "id": 217,
+              "name": "味噌",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 213
+            }
+          ]
+        },
+        {
+          "id": 218,
+          "name": "砂糖類",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 212,
+          "child": [
+            {
+              "id": 219,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 218
+            },
+            {
+              "id": 220,
+              "name": "砂糖",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 218
+            },
+            {
+              "id": 221,
+              "name": "蜂蜜",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 218
+            }
+          ]
+        },
+        {
+          "id": 222,
+          "name": "油脂類",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 212,
+          "child": [
+            {
+              "id": 223,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 222
+            },
+            {
+              "id": 224,
+              "name": "サラダ油",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 222
+            },
+            {
+              "id": 225,
+              "name": "ゴマ油",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 222
+            },
+            {
+              "id": 226,
+              "name": "ラード",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 222
+            }
+          ]
+        },
+        {
+          "id": 227,
+          "name": "バター類",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 212,
+          "child": [
+            {
+              "id": 228,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 227
+            },
+            {
+              "id": 229,
+              "name": "バター",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 227
+            },
+            {
+              "id": 230,
+              "name": "マーガリン",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 227
+            }
+          ]
+        },
+        {
+          "id": 231,
+          "name": "他の調味料",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 212,
+          "child": [
+            {
+              "id": 232,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 231
+            },
+            {
+              "id": 233,
+              "name": "だし昆布",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 231
+            },
+            {
+              "id": 234,
+              "name": "鰹節",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 231
+            },
+            {
+              "id": 235,
+              "name": "煮干し",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 231
+            },
+            {
+              "id": 236,
+              "name": "だしの素",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 231
+            },
+            {
+              "id": 237,
+              "name": "スープの素",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 231
+            },
+            {
+              "id": 238,
+              "name": "ソース類",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 231
+            },
+            {
+              "id": 239,
+              "name": "香辛料",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 231
+            },
+            {
+              "id": 240,
+              "name": "料理酒",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 231
+            },
+            {
+              "id": 241,
+              "name": "みりん",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 231
+            },
+            {
+              "id": 242,
+              "name": "パン粉",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 231
+            },
+            {
+              "id": 243,
+              "name": "片栗粉",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 231
+            },
+            {
+              "id": 244,
+              "name": "ジャム",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 231
+            }
+          ]
+        },
+        {
+          "id": 245,
+          "name": "茶コーヒー類",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 212,
+          "child": [
+            {
+              "id": 246,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 245
+            },
+            {
+              "id": 247,
+              "name": "煎茶",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 245
+            },
+            {
+              "id": 248,
+              "name": "ほうじ茶",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 245
+            },
+            {
+              "id": 249,
+              "name": "玄米茶",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 245
+            },
+            {
+              "id": 250,
+              "name": "コーヒー",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 245
+            },
+            {
+              "id": 251,
+              "name": "紅茶",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 245
+            },
+            {
+              "id": 252,
+              "name": "ココア",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 245
+            }
+          ]
+        },
+        {
+          "id": 253,
+          "name": "飲料嗜好品",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 212,
+          "child": [
+            {
+              "id": 254,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 253
+            },
+            {
+              "id": 255,
+              "name": "ジュース類",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 253
+            },
+            {
+              "id": 256,
+              "name": "酒類",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 253
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 257,
+      "name": "光熱費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 258,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 257,
+          "child": []
+        },
+        {
+          "id": 259,
+          "name": "電気",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 257,
+          "child": [
+            {
+              "id": 260,
+              "name": "電気",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 259
+            },
+            {
+              "id": 261,
+              "name": "深夜電気",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 259
+            }
+          ]
+        },
+        {
+          "id": 262,
+          "name": "ガス",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 257,
+          "child": [
+            {
+              "id": 263,
+              "name": "都市ガス",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 262
+            },
+            {
+              "id": 264,
+              "name": "プロパンガス",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 262
+            }
+          ]
+        },
+        {
+          "id": 265,
+          "name": "灯油",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 257,
+          "child": [
+            {
+              "id": 266,
+              "name": "暖房用",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 265
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "name": "住居家具費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 268,
+          "name": "家賃管理費",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 267,
+          "child": []
+        },
+        {
+          "id": 269,
+          "name": "返済金",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 267,
+          "child": []
+        },
+        {
+          "id": 270,
+          "name": "増設増改築",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 267,
+          "child": []
+        },
+        {
+          "id": 271,
+          "name": "修繕庭手入",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 267,
+          "child": [
+            {
+              "id": 272,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 271
+            },
+            {
+              "id": 273,
+              "name": "住宅修繕",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 271
+            },
+            {
+              "id": 274,
+              "name": "庭の手入れ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 271
+            }
+          ]
+        },
+        {
+          "id": 275,
+          "name": "室内装飾",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 267,
+          "child": []
+        },
+        {
+          "id": 276,
+          "name": "上下水道",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 267,
+          "child": []
+        },
+        {
+          "id": 277,
+          "name": "電話代",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 267,
+          "child": [
+            {
+              "id": 278,
+              "name": "固定電話",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 277
+            },
+            {
+              "id": 279,
+              "name": "携帯電話",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 277
+            }
+          ]
+        },
+        {
+          "id": 280,
+          "name": "町会その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 267,
+          "child": [
+            {
+              "id": 281,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 280
+            },
+            {
+              "id": 282,
+              "name": "町会費",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 280
+            },
+            {
+              "id": 283,
+              "name": "防災用品",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 280
+            }
+          ]
+        },
+        {
+          "id": 284,
+          "name": "火災家財保",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 267,
+          "child": [
+            {
+              "id": 285,
+              "name": "火災保険",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 284
+            },
+            {
+              "id": 286,
+              "name": "家財保険",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 284
+            }
+          ]
+        },
+        {
+          "id": 287,
+          "name": "園芸ペット",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 267,
+          "child": [
+            {
+              "id": 288,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 287
+            },
+            {
+              "id": 289,
+              "name": "種・苗",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 287
+            },
+            {
+              "id": 290,
+              "name": "肥料",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 287
+            },
+            {
+              "id": 291,
+              "name": "ペット費用",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 287
+            }
+          ]
+        },
+        {
+          "id": 292,
+          "name": "家具類",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 267,
+          "child": []
+        },
+        {
+          "id": 293,
+          "name": "消耗品",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 267,
+          "child": [
+            {
+              "id": 294,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 293
+            },
+            {
+              "id": 295,
+              "name": "住宅洗剤類",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 293
+            },
+            {
+              "id": 296,
+              "name": "台所洗剤",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 293
+            },
+            {
+              "id": 297,
+              "name": "ごみ袋",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 293
+            },
+            {
+              "id": 298,
+              "name": "食器",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 293
+            },
+            {
+              "id": 299,
+              "name": "台所用品",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 293
+            },
+            {
+              "id": 300,
+              "name": "掃除道具",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 293
+            },
+            {
+              "id": 301,
+              "name": "殺虫剤",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 293
+            },
+            {
+              "id": 302,
+              "name": "電球蛍光灯",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 293
+            }
+          ]
+        },
+        {
+          "id": 303,
+          "name": "家具修理代",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 267,
+          "child": []
+        }
+      ]
+    },
+    {
+      "id": 304,
+      "name": "衣服費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 305,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 304,
+          "child": []
+        },
+        {
+          "id": 306,
+          "name": "衣料品",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 304,
+          "child": [
+            {
+              "id": 307,
+              "name": "夫",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 306
+            },
+            {
+              "id": 308,
+              "name": "妻",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 306
+            },
+            {
+              "id": 309,
+              "name": "子供",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 306
+            }
+          ]
+        },
+        {
+          "id": 310,
+          "name": "はき物",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 304,
+          "child": [
+            {
+              "id": 311,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 310
+            },
+            {
+              "id": 312,
+              "name": "靴",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 310
+            },
+            {
+              "id": 313,
+              "name": "運動靴",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 310
+            }
+          ]
+        },
+        {
+          "id": 314,
+          "name": "附属品",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 304,
+          "child": [
+            {
+              "id": 315,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 314
+            },
+            {
+              "id": 316,
+              "name": "帽子",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 314
+            },
+            {
+              "id": 317,
+              "name": "手袋",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 314
+            },
+            {
+              "id": 318,
+              "name": "かさ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 314
+            },
+            {
+              "id": 319,
+              "name": "鞄",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 314
+            },
+            {
+              "id": 320,
+              "name": "腕時計",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 314
+            },
+            {
+              "id": 321,
+              "name": "アクセサリー",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 314
+            }
+          ]
+        },
+        {
+          "id": 322,
+          "name": "修繕代",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 304,
+          "child": []
+        },
+        {
+          "id": 323,
+          "name": "クリーニング",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 304,
+          "child": []
+        },
+        {
+          "id": 324,
+          "name": "寝具類",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 304,
+          "child": [
+            {
+              "id": 325,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 324
+            },
+            {
+              "id": 326,
+              "name": "敷布団",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 324
+            },
+            {
+              "id": 327,
+              "name": "布団",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 324
+            },
+            {
+              "id": 328,
+              "name": "カバー類",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 324
+            },
+            {
+              "id": 329,
+              "name": "ねまき",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 324
+            },
+            {
+              "id": 330,
+              "name": "タオル類",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 324
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 331,
+      "name": "教育費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 332,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 331,
+          "child": []
+        },
+        {
+          "id": 333,
+          "name": "授業保育料",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 331,
+          "child": []
+        },
+        {
+          "id": 334,
+          "name": "校納費",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 331,
+          "child": []
+        },
+        {
+          "id": 335,
+          "name": "教科書等",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 331,
+          "child": []
+        },
+        {
+          "id": 336,
+          "name": "小遣",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 331,
+          "child": []
+        },
+        {
+          "id": 337,
+          "name": "補習・稽古",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 331,
+          "child": []
+        },
+        {
+          "id": 338,
+          "name": "通学交通費",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 331,
+          "child": []
+        },
+        {
+          "id": 339,
+          "name": "受験費用",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 331,
+          "child": []
+        },
+        {
+          "id": 340,
+          "name": "遊学費",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 331,
+          "child": []
+        }
+      ]
+    },
+    {
+      "id": 341,
+      "name": "交際費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 342,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 341,
+          "child": []
+        },
+        {
+          "id": 343,
+          "name": "通信",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 341,
+          "child": []
+        },
+        {
+          "id": 344,
+          "name": "贈り物",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 341,
+          "child": []
+        },
+        {
+          "id": 345,
+          "name": "慶弔",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 341,
+          "child": []
+        },
+        {
+          "id": 346,
+          "name": "見舞い",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 341,
+          "child": []
+        },
+        {
+          "id": 347,
+          "name": "おみやげ",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 341,
+          "child": []
+        },
+        {
+          "id": 348,
+          "name": "接待",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 341,
+          "child": []
+        }
+      ]
+    },
+    {
+      "id": 349,
+      "name": "教養費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 350,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 349,
+          "child": []
+        },
+        {
+          "id": 351,
+          "name": "新聞・書籍",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 349,
+          "child": [
+            {
+              "id": 352,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 351
+            },
+            {
+              "id": 353,
+              "name": "新聞",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 351
+            },
+            {
+              "id": 354,
+              "name": "一般書籍",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 351
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 355,
+      "name": "娯楽費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 356,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 355,
+          "child": []
+        },
+        {
+          "id": 357,
+          "name": "旅行",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 355,
+          "child": [
+            {
+              "id": 358,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 357
+            },
+            {
+              "id": 359,
+              "name": "宿泊",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 357
+            },
+            {
+              "id": 360,
+              "name": "食事",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 357
+            },
+            {
+              "id": 361,
+              "name": "交通費",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 357
+            },
+            {
+              "id": 362,
+              "name": "おみやげ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 357
+            }
+          ]
+        },
+        {
+          "id": 363,
+          "name": "遊び",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 355,
+          "child": [
+            {
+              "id": 364,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 363
+            },
+            {
+              "id": 365,
+              "name": "交通費",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 363
+            },
+            {
+              "id": 366,
+              "name": "入場料",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 363
+            },
+            {
+              "id": 367,
+              "name": "食事",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 363
+            },
+            {
+              "id": 368,
+              "name": "おみやげ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 363
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 369,
+      "name": "保健衛生費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 370,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 369,
+          "child": [
+            {
+              "id": 371,
+              "name": "眼鏡",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 370
+            }
+          ]
+        },
+        {
+          "id": 372,
+          "name": "消耗化粧品",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 369,
+          "child": [
+            {
+              "id": 373,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 372
+            },
+            {
+              "id": 374,
+              "name": "歯みがき",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 372
+            },
+            {
+              "id": 375,
+              "name": "歯ブラシ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 372
+            },
+            {
+              "id": 376,
+              "name": "石けん",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 372
+            },
+            {
+              "id": 377,
+              "name": "シャンプー",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 372
+            },
+            {
+              "id": 378,
+              "name": "トイレット紙",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 372
+            },
+            {
+              "id": 379,
+              "name": "ティッシュ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 372
+            },
+            {
+              "id": 380,
+              "name": "化粧品",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 372
+            },
+            {
+              "id": 381,
+              "name": "ブラッシ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 372
+            }
+          ]
+        },
+        {
+          "id": 382,
+          "name": "入浴・整髪",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 369,
+          "child": [
+            {
+              "id": 383,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 382
+            },
+            {
+              "id": 384,
+              "name": "整髪",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 382
+            },
+            {
+              "id": 385,
+              "name": "パーマ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 382
+            },
+            {
+              "id": 386,
+              "name": "入浴",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 382
+            }
+          ]
+        },
+        {
+          "id": 387,
+          "name": "薬品・器具",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 369,
+          "child": [
+            {
+              "id": 388,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 387
+            },
+            {
+              "id": 389,
+              "name": "薬",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 387
+            },
+            {
+              "id": 390,
+              "name": "医療器具",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 387
+            },
+            {
+              "id": 391,
+              "name": "マッサージ",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 387
+            }
+          ]
+        },
+        {
+          "id": 392,
+          "name": "医療費",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 369,
+          "child": [
+            {
+              "id": 393,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 392
+            },
+            {
+              "id": 394,
+              "name": "診療費",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 392
+            },
+            {
+              "id": 395,
+              "name": "薬代",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 392
+            },
+            {
+              "id": 396,
+              "name": "交通費",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 392
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 397,
+      "name": "職業費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 398,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 397,
+          "child": []
+        },
+        {
+          "id": 399,
+          "name": "職業費",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 397,
+          "child": [
+            {
+              "id": 400,
+              "name": "夫",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 399
+            },
+            {
+              "id": 401,
+              "name": "妻",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 399
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 402,
+      "name": "特別費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 403,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 402,
+          "child": [
+            {
+              "id": 404,
+              "name": "先祖のため",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 403
+            },
+            {
+              "id": 405,
+              "name": "冠婚葬祭",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 403
+            },
+            {
+              "id": 406,
+              "name": "不明金",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 403
+            }
+          ]
+        },
+        {
+          "id": 407,
+          "name": "直系費用",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 402,
+          "child": [
+            {
+              "id": 408,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 407
+            },
+            {
+              "id": 409,
+              "name": "送金",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 407
+            },
+            {
+              "id": 410,
+              "name": "贈物",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 407
+            }
+          ]
+        },
+        {
+          "id": 411,
+          "name": "掛捨保険",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 402,
+          "child": []
+        },
+        {
+          "id": 412,
+          "name": "家庭事務",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 402,
+          "child": [
+            {
+              "id": 413,
+              "name": "その他",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 412
+            },
+            {
+              "id": 414,
+              "name": "文房具",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 412
+            },
+            {
+              "id": 415,
+              "name": "証明書交付",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 412
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 416,
+      "name": "公共費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 417,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 416,
+          "child": []
+        },
+        {
+          "id": 418,
+          "name": "献金",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 416,
+          "child": []
+        },
+        {
+          "id": 419,
+          "name": "共同募金",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 416,
+          "child": []
+        },
+        {
+          "id": 420,
+          "name": "寄付",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 416,
+          "child": []
+        }
+      ]
+    },
+    {
+      "id": 421,
+      "name": "自動車費",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": [
+        {
+          "id": 422,
+          "name": "その他",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 421,
+          "child": []
+        },
+        {
+          "id": 425,
+          "name": "ガソリン代",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 421,
+          "child": [
+              {
+                  "id": 423,
+                  "name": "自動車",
+                  "type": "支出",
+                  "genre": "medium",
+                  "parent_id": 422
+              },
+              {
+                  "id": 424,
+                  "name": "スクーター",
+                  "type": "支出",
+                  "genre": "medium",
+                  "parent_id": 422
+              }
+          ]
+        },
+        {
+          "id": 426,
+          "name": "オイル代",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 421,
+          "child": [
+            {
+              "id": 427,
+              "name": "自動車",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 426
+            },
+            {
+              "id": 428,
+              "name": "スクーター",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 426
+            }
+          ]
+        },
+        {
+          "id": 429,
+          "name": "駐車場代",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 421,
+          "child": []
+        },
+        {
+          "id": 430,
+          "name": "高速道路代",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 421,
+          "child": []
+        },
+        {
+          "id": 431,
+          "name": "修理代",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 421,
+          "child": []
+        },
+        {
+          "id": 432,
+          "name": "整備費",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 421,
+          "child": [
+            {
+              "id": 433,
+              "name": "車検費用",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 432
+            }
+          ]
+        },
+        {
+          "id": 434,
+          "name": "部品代",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 421,
+          "child": []
+        },
+        {
+          "id": 435,
+          "name": "車保険",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 421,
+          "child": [
+            {
+              "id": 436,
+              "name": "自賠責保険",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 435
+            },
+            {
+              "id": 437,
+              "name": "任意保険",
+              "type": "支出",
+              "genre": "medium",
+              "parent_id": 435
+            }
+          ]
+        },
+        {
+          "id": 438,
+          "name": "重量税",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 421,
+          "child": []
+        },
+        {
+          "id": 439,
+          "name": "車購入",
+          "type": "支出",
+          "genre": "medium",
+          "parent_id": 421,
+          "child": []
+        }
+      ]
+    },
+    {
+      "id": 440,
+      "name": "口座へ",
+      "type": "支出",
+      "genre": "big",
+      "parent_id": 0,
+      "child": []
+    },
+    {
+      "id": 441,
+      "name": "口座から",
+      "type": "収入",
+      "genre": "big",
+      "parent_id": 0,
+      "child": []
+    }
+  ]
+}
